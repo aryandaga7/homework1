@@ -1,4 +1,6 @@
-Q2. What is a remote repository?
+Q1. What is the difference between a merge and a rebase? 
 
-Ans: A remote repository refers to a Git repository that is hosted on another machine, server, or in a centralized place accessible to multiple users. It is commonly used to collaborate with others, allowing multiple developers to push or fetch data to and from it, ensuring a central source of truth for the project. Sites like GitHub, GitLab, and Bitbucket provide hosting for remote repositories, enabling teams to collaborate on a project, track issues, and manage changes from different contributors in an organized manner. Essentially, while your local repository is on your own computer, the remote repository acts as a shared space for all collaborators.
+Ans: In Git, a merge is a method used to integrate changes from different branches. When merging, Git combines the contents of separate branches and creates a new “merge commit” to preserve the history and context of the branch. This method is useful when the goal is to integrate work between different branches while maintaining the exact history and context of each branch.
+
+On the other hand, a rebase is a method used to move or combine a sequence of commits to a new base commit, essentially rewriting the commit history to provide a cleaner and more linear project history. Rebasing is especially useful when there’s a need to clean up and organize commits before integrating them into the main branch, making the history more readable and eliminating unnecessary or confusing intermediate commits
 
